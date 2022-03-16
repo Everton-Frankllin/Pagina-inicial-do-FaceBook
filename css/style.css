@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    padding: 10%;
+    width: 100%;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+
+.form{
+    display: inline-block;
+    padding: 25px;
+    border-radius: 7px;
+    margin-left: 900px;
+    width: 500px;
+    height: 490px;
+    background-color: white;
+}
+
+.form input{
+    font-size: 25px;
+    color: rgba(97, 95, 95, 0.473);
+    padding: 10px;
+    margin-top: 30px;
+    width: 450px;
+    height: 60px;
+    border-radius: 7px;
+}
+.form input, .botao button{
+    outline: 0;
+}
+.botao> button{
+    font-weight: bold;
+    margin-top: 30px;
+    width: 450px;
+    height: 60px;
+    border-radius: 7px;
+    color: white;
+    font-size: 30px;
+    background-color: #1877f2;
+}
+.divisao{
+    margin-top: 30px;
+    background-color: #ccc;
+    width: 450px;
+    height: 2px;
+
+}
+.esqueci {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.esqueci a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #1877f2;
+    
+}
+.criar> button{
+    color: white;
+    font-size: 22px;
+    background-color: #42b72a;
+    width: 230px;
+    height: 65px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+.title{
+    display: inline-block;
+    margin-top: 90px;
+    width: 500px;
+}
+
+.title p{
+    font-size: 40px;
+}
+
